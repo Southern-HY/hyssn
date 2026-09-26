@@ -10,21 +10,22 @@
 
   /* link color */
   --md-primary-fg-color: #3e3e3e;
+  --md-typeset-a-color: #3e3e3e;
   
   /* left link text color */
   --md-accent-fg-color: #171717;
 
   /* left link bg color */
-  --md-accent-fg-color--transparent: #E4E4DF;
+  --md-accent-fg-color--transparent: #00000018;
 
   /* header and footer addition */
   --md-default-bg-color--light: #00000000;
 }
 
 .md-content a {
-    font-weight: bold;
+  font-weight: bold;
 }
 
-h1, h2, h3, h4, h5, h6, .md-header .md-ellipsis {
-  font-family: serif;
+hr {
+  border-bottom-color: #a5a5a5 !important;
 }
